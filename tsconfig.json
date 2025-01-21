@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",              // Use ES modules
+    "moduleResolution": "node",
+    "esModuleInterop": true,         // Enable CommonJS interoperability
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist",              // Output directory for compiled files
+    "resolveJsonModule": true,
+    "strict": true,                  // Enable strict mode for better type checking
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],         // Include TypeScript files under the 'src' folder
+  "exclude": ["node_modules"]         // Exclude node_modules folder
+}
